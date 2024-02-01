@@ -13,5 +13,5 @@ function functionC(inputString, countWithWhitespaces) {
     }
     console.log("Number of characters without whitespaces: " + functionB(inputString));
 }
-console.log(functionC(" test 1 ", true));
-console.log(functionC(" test 1 ", false));
+functionC(" test 1 ", true);
+functionC(" test 1 ", false);
