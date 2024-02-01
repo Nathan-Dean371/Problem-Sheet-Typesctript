@@ -5,8 +5,8 @@ function functionA(value: string): number
 
 function functionB(value: string): number
 {
-    value = value.trim();
-    return value.length;
+    
+    return value.trim().length;
 }
 
 function functionC(inputString: string, countWithWhitespaces: boolean)

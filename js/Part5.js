@@ -3,8 +3,7 @@ function functionA(value) {
     return value.length;
 }
 function functionB(value) {
-    value = value.trim();
-    return value.length;
+    return value.trim().length;
 }
 function functionC(inputString, countWithWhitespaces) {
     if (countWithWhitespaces) {
